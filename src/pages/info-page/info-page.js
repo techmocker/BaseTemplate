@@ -1,7 +1,7 @@
 // InfoPage.js
 import React from 'react';
 import StandardBtn from "../../components/common/buttons/standard-btn";
-import styles from "./info-page.css"; // Passe den Pfad entsprechend deiner Dateistruktur an
+import styles from "./info-page.css";
 
 const InfoPage = () => {
   const handleBtnClick = () => {
@@ -14,7 +14,7 @@ const InfoPage = () => {
       <StandardBtn
         onClick={handleBtnClick}
         text="Klick mich auf der Info Seite"
-        style={{ background: 'blue', color: 'white' }} // Beispiel für benutzerdefinierten Style
+        style={{ background: 'blue', color: 'white' }} 
       />
     </div>
   );
